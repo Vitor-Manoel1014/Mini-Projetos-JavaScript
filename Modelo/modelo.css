@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0099aa;
+}
+
+/* CORPO */
+section#corpo {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#numeros p {
+    font-size: 16pt;
+    font-family: Arial;
+    text-align: center;
+}
+
+div#produto {
+    margin-top: 25px;
+}
+
+div#produto img#foto {
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+div#produto p#produt {
+    text-align: center;
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+/* CABECALHO */
+header#cabecalho {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* RODAPÉ */
+footer#rodape {
+    text-align: center;
+    color: white;
+    font-size: 16pt;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+footer#rodape a:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.4s;
+    font-size: 20pt;
+}

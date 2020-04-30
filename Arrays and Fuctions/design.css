@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+body {
+    background-color: #0099aa;
+}
+
+/* CORPO */
+section#corpo {
+    width: 650px;
+    height: auto;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#resultado, input {
+    margin-top: 10px;
+}
+
+/* CABECALHO */
+header#cabecalho {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+header#cabecalho h1 {
+    font-size: 20pt;
+}
+
+/* RODAPÉ */
+footer#rodape {
+    text-align: center;
+    color: white;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+footer#rodape a:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.4s;
+    font-size: 20pt;
+}
