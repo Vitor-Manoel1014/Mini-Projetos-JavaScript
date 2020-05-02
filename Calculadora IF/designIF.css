@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(Fotos/Plano-de-Fundo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* CABECALHO */
+header#cabecalho h1 {
+    text-align: center;
+}
+
+header#cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
+header#cabecalho a:hover {
+    transition: 0.4s;
+    font-size: 28pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+header#cabecalho a:active {
+    transition: 0.1s;
+    color: black;
+    background-color: white;
+}
+
+/* CORPO */
+section#corpo-exp {
+    width: 1000px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Fotos/plano-de-fundo-div.jpg);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+section#corpo-exp h1 {
+    font-size: 24pt;
+}
+
+section#corpo-exp h1.segundo {
+    margin-top: 80px;
+}    
+
+section#corpo-exp p {
+    font-size: 20pt;
+}
+
+section#corpo {
+    width: 800px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Fotos/plano-de-fundo-div.jpg);
+    border-radius: 10px;
+}
+
+div#notas {
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    width: 310px;
+    height: 400px;
+    color: white;
+}
+
+div#notas input, p {
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+div#calculo {
+    position: relative;
+    left: 450px;
+    top: -350px;
+    background-color: black;
+    width: 250px;
+    height: 50px;
+}
+
+div#calculo input {
+    width: 100%;
+    height: 100%;
+    font-size: 16pt;
+}
+
+div#resultado {
+    position: relative;
+    text-align: center;
+    font-size: 16pt;
+    left: 425px;
+    top: -300px;
+    color: white;
+    width: 300px;
+    height: 50px;
+}
+
+figure#foto-do-site {
+    position: relative;
+    left: 380px;
+    top: -300px;
+    width: 320px;
+    height: 220px;
+}
+
+img#foto {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* RODAPÉ */
+footer#rodape {
+    text-align: center;
+    font-size: 16pt;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer#rodape a:hover {
+    padding: 10px;
+    transition: 0.4s;
+    font-size: 20pt;
+}
+
+footer#rodape a:active {
+    color: black;
+    transition: 0.1s;
+    background-color: white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="designIF.css"/>
+    <script lang="javascript" src="calculadoraIF.js"></script>
+    <title>Calculadora de Média IF</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1><a href="exp.html" target="_blank">Calculadora de Média IF</a></h1>
+    </header>
+    <section id="corpo">
+        <div id="notas">
+            <h1>Digite suas médias</h1>
+            <p><label for="iNota01">Digite sua primeira média:</label>
+            <input type="number" name="nNota01" id="iNota01" min="0" max="10"/></p>
+            <p><label for="iNota02">Digite sua segunda média:</label>
+            <input type="number" name="nNota02" id="iNota02" min="0" max="10"/></p>
+            <p><label for="iNota03">Digite sua terceira média:</label>
+            <input type="number" name="nNota03" id="iNota03" min="0" max="10"/></p>
+        </div>
+        <div id="calculo">
+            <input type="button" value="Calcular" onclick="Calcular()"/>
+        </div>
+        <div id="resultado">
+            Resultado das médias
+        </div>
+        <figure id="foto-do-site">
+            <img id="foto" src="Fotos/Foto-Já-Passou.jpg" alt=""/>
+        </figure>
+    </section>
+    <footer id="rodape">
+        <p><a href="https://github.com/Vitor-Manoel1014" title="Meu perfil no GitHub" target="_blank">&copy; Vitor Manoel</a></p>
+    </footer>
+</body>
+</html>
